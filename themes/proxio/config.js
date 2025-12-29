@@ -208,7 +208,7 @@ const CONFIG = {
   // 页脚三列菜单组
   // 页脚菜单
   PROXIO_FOOTER_LINKS: [
-   {
+   //{
      // name: '友情链接',
      // menus: [
        // {

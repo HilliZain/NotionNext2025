@@ -7,25 +7,25 @@ const CONFIG = {
 
   // 英雄区块导航
   PROXIO_HERO_ENABLE: true, // 开启英雄区
-  PROXIO_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
-  PROXIO_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
+  PROXIO_HERO_TITLE_1: 'The universe is vast, but life is even vaster', // 英雄区文字
+  PROXIO_HERO_TITLE_2: 'Your happiness is part of the plan', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  PROXIO_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
+  PROXIO_HERO_BUTTON_1_TEXT: 'Project-Portfolio', // 英雄区按钮
   PROXIO_HERO_BUTTON_1_URL:
     'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
-  PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
+  PROXIO_HERO_BUTTON_2_TEXT: 'Follow on GitHub', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github-mark.svg', // 英雄区按钮2的图标，不需要则留空
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
-  PROXIO_HERO_BANNER_IMAGE: 'file:///C:/Users/Administrator/Desktop/bg.png', // hero区背景，默认是获取Notion背景，如需另外配置图片可以填写在这里
-  PROXIO_HERO_BANNER_IFRAME_URL: 'file:///C:/Users/Administrator/Desktop/bg.png', // hero背景区内嵌背景网页 ，可以配置一个网页地址，例如动画网页https://my.spline.design/untitled-b0c6e886227646c34afc82cdc6de4ca2/
+  PROXIO_HERO_BANNER_IMAGE: '', // hero区背景，默认是获取Notion背景，如需另外配置图片可以填写在这里
+  PROXIO_HERO_BANNER_IFRAME_URL: 'https://www.pinterest.com/pin/492649954389773/', // hero背景区内嵌背景网页 ，可以配置一个网页地址，例如动画网页https://my.spline.design/untitled-b0c6e886227646c34afc82cdc6de4ca2/
 
   // 文章区块
   PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
-  PROXIO_BLOG_TITLE: '作品',
+  PROXIO_BLOG_TITLE: 'Post',
   PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
-  PROXIO_BLOG_TEXT_1: '我的最新动态',
+  PROXIO_BLOG_TEXT_1: 'Recent Activity',
 
   // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
   PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: '', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
@@ -37,9 +37,9 @@ const CONFIG = {
 
   // 特性区块
   PROXIO_FEATURE_ENABLE: true, // 特性区块开关
-  PROXIO_FEATURE_TITLE: '为什么选我',
-  PROXIO_FEATURE_TEXT_1: '我能让您的项目焕发光彩',
-  PROXIO_FEATURE_TEXT_2: '丰富的案例经验，专业的技术服务，优质的沟通效率',
+  PROXIO_FEATURE_TITLE: 'Spotlight Projects',
+  PROXIO_FEATURE_TEXT_1: 'Bring Ideas to Life',
+  PROXIO_FEATURE_TEXT_2: 'From AI applications to hardware prototypes, turning imagination into products',
 
   // 特性1
   PROXIO_FEATURE_1_ICON_CLASS: 'fa-solid fa-stopwatch', // fas图标

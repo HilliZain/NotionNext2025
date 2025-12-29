@@ -3,14 +3,14 @@ import { useEffect, useState } from 'react';
 
 const LoadingCover = ({ onFinishLoading }) => {
     const [isVisible, setIsVisible] = useState(true);
-    const welcomeText = siteConfig('PROXIO_WELCOME_TEXT', '欢迎来到我们的网站！');
+    const welcomeText = siteConfig('PROXIO_WELCOME_TEXT', 'Let Technology Unlock the World of Magic');
 
     // 定义颜色变量
     const colors = {
-        backgroundStart: '#1a1a1a', // 深灰色
-        backgroundMiddle: '#4d4d4d', // 中灰色
-        backgroundEnd: '#e6e6e6', // 浅灰色
-        textColor: '#ffffff', // 白色
+        backgroundStart: '#584DE1', // 紫
+        backgroundMiddle: '#5D69BE', // 深紫
+        backgroundEnd: '#C89FEB', // 粉紫
+        textColor: '#D7FA32', // 荧光绿
         rippleColor: 'rgba(255, 255, 255, 0.6)', // 半透明白色
     };
 

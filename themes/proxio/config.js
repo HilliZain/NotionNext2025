@@ -208,19 +208,19 @@ const CONFIG = {
   // 页脚三列菜单组
   // 页脚菜单
   PROXIO_FOOTER_LINKS: [
-    {
-      name: '友情链接',
-      menus: [
-        {
-          title: 'Tangly的学习笔记',
-          href: 'https://blog.tangly1024.com'
-        },
-        {
-          title: 'NotionNext',
-          href: 'https://www.tangly1024.com'
-        }
-      ]
-    },
+   {
+     // name: '友情链接',
+     // menus: [
+       // {
+         // title: 'Tangly的学习笔记',
+         // href: 'https://blog.tangly1024.com'
+       // },
+       // {
+        //  title: 'NotionNext',
+         // href: 'https://www.tangly1024.com'
+       // }
+     // ]
+   // },
     {
       name: '开发者',
       menus: [
